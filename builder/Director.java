@@ -5,7 +5,11 @@ public class Director {
 
     }
 
-    public void buildExtraIngredients(){
-        
+    public void buildExtraIngredients(HamburgerBuild builder){
+        builder.reset();
+        builder.buildBread();
+        builder.buildMeat();
+        builder.buildCheese();
+        builder.buildExtraIngredients();
     }
 }

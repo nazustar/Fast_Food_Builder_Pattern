@@ -26,7 +26,21 @@ public class Hamburger {
         this.extraIngredients = extraIngrents;
     }
 
-    public void showResults(){
-        
+    //Here the product shows the finished hamburger, with their attributes.
+    public void finishHamburger(){
+
+        System.out.println("Food order");
+        System.out.println("---------------------");
+        System.out.println("Bread type: " + bread);
+        System.out.println("Meat type: " + meat);
+
+        //For print cheese boolean.
+        if (cheese == false){
+            System.out.println("Cheese: the burger doesn't have cheese");
+        } else if (cheese == true){
+            System.out.println("Cheese: yes, the burger have cheese");
+        }
+
+        System.out.println("Extra ingredients: " + extraIngredients);
     }
 }

@@ -28,7 +28,7 @@ public class Hamburger {
 
     //Here the product shows the finished hamburger, with their attributes.
     public void finishHamburger(){
-        System.out.println("---------------------")
+        System.out.println("---------------------");
         System.out.println("Food order");
         System.out.println("---------------------");
         System.out.println("Bread type: " + bread);

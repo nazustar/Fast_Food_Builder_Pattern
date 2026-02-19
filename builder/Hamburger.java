@@ -28,7 +28,7 @@ public class Hamburger {
 
     //Here the product shows the finished hamburger, with their attributes.
     public void finishHamburger(){
-
+        System.out.println("---------------------")
         System.out.println("Food order");
         System.out.println("---------------------");
         System.out.println("Bread type: " + bread);
@@ -40,7 +40,6 @@ public class Hamburger {
         } else if (cheese == true){
             System.out.println("Cheese: yes, the burger has cheese");
         }
-
         System.out.println("Extra ingredients: " + extraIngredients);
     }
 }

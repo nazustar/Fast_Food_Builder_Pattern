@@ -2,7 +2,7 @@ package builder;
 
 public class Director {
 
-    public void buildNormalBurger(HamburgerBuild builder){
+    public void buildNormalBurger(HamburgerBuilder builder){
         //For burgers without extra ingredients.
         builder.reset();
         builder.buildBread();
@@ -10,7 +10,7 @@ public class Director {
         builder.buildCheese();
     }
 
-    public void buildExtraIngredients(HamburgerBuild builder){
+    public void buildExtraIngredients(HamburgerBuilder builder){
         //Implementation of the methods.
         builder.reset();
         builder.buildBread();

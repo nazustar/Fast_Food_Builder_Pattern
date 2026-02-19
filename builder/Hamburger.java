@@ -22,8 +22,8 @@ public class Hamburger {
         this.cheese = cheese;
     }
 
-    public void setExtraIngredients(String extraIngrents){
-        this.extraIngredients = extraIngrents;
+    public void setExtraIngredients(String extraIngredients){
+        this.extraIngredients = extraIngredients;
     }
 
     //Here the product shows the finished hamburger, with their attributes.
@@ -38,7 +38,7 @@ public class Hamburger {
         if (cheese == false){
             System.out.println("Cheese: the burger doesn't have cheese");
         } else if (cheese == true){
-            System.out.println("Cheese: yes, the burger have cheese");
+            System.out.println("Cheese: yes, the burger has cheese");
         }
 
         System.out.println("Extra ingredients: " + extraIngredients);

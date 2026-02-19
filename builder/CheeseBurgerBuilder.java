@@ -1,8 +1,14 @@
 package builder;
 
-public class CheeseBurgerBuilder implements HamburgerBuild{
+public class CheeseBurgerBuilder implements HamburgerBuilder{
+    
     //Here we create the builder.
     private Hamburger burger;
+
+    //Finished burger display.
+    public Hamburger getFinishedBurger(){
+        return this.burger;
+    }
 
     //Implementation of the methods of hamburger build.
     @Override
@@ -32,6 +38,5 @@ public class CheeseBurgerBuilder implements HamburgerBuild{
 
     //Constructor for the builder, the reset starts a new order.
     public CheeseBurgerBuilder(){
-        this.reset();
     }
 }

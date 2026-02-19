@@ -1,7 +1,7 @@
 //Builder.
 package builder;
 
-public interface HamburgerBuild {
+public interface HamburgerBuilder {
     public void reset();
 
     //This methods are implemented on each burger for set the attributes.
@@ -10,4 +10,6 @@ public interface HamburgerBuild {
     public void buildCheese();
     public void buildExtraIngredients();
 
+    //This method shows the finished burger.
+    Hamburger getFinishedBurger();
 }

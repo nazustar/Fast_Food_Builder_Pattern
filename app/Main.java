@@ -17,6 +17,11 @@ public class Main {
         director.buildNormalBurger(classicBurgerBuilder);
         Hamburger classicBurger = classicBurgerBuilder.getFinishedBurger();
         classicBurger.finishHamburger();
-        
+
+        //Potato burger.
+        HamburgerBuilder potatoBurgerBuilder = new PotatoBurgerBuilder();
+        director.buildExtraIngredients(potatoBurgerBuilder);
+        Hamburger potatoBurger = potatoBurgerBuilder.getFinishedBurger();
+        potatoBurger.finishHamburger();
     }
 }

@@ -7,7 +7,7 @@ public class Hamburger {
     private String bread;
     private String meat;
     private boolean cheese;
-    private String extraIngredients;
+    private String extraIngredients = "None";
 
     //Setters for use on each hamburger.
     public void setBread(String bread){
